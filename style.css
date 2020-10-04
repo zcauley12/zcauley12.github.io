@@ -2,7 +2,34 @@ body {
     background-color: #252525;
 }
 
-h1, h4, p {
+h1, h3, h4, p, li {
    color: white; 
 }
+
+h3 {
+    font-weight: bold;
+}
+
+hr {
+    background-color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top:  3%;
+}
+
+#title {
+    font-weight: bold;
+    color: #597088;
+}
+
+#list {
+    font-weight: bold;
+}
+
+#bodytext {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 

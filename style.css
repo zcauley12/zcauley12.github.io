@@ -32,4 +32,20 @@ hr {
     margin-right: 2%;
 }
 
+p {
+    margin-left: 3%;
+}
+
+img {
+    width: 650px;
+    height: 400px;
+    margin-bottom: 2%;
+}
+
+#mockup {
+    width: 750px;
+    height: 500px;
+    margin-bottom: 2%;
+}
+
 

@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Milestone 3 Answers</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">    
+      <div class="navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="ms2answers.html">Milestone 2</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Milestone 3</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div>
+
+    
+    <iframe style="margin-left: 2%; margin-top: 3%;" width="560" height="315" src="https://www.youtube.com/embed/qn4Jp4XGlH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="bodytext">
+    <h3>A. User Experience Requirements</h3>
+    <br>
+    <h4>1. Decompose proposed solution into user stories</h4>
+    
+    <span id="title">User Story 1: </span> 
+    <p>
+      <strong><u>User Story:</u></strong> As a meeting host, I want to be able to activate Focus Mode so that the meeting 
+      participants can engage in a flowing discussion.
+    </p>
+    <p>
+      <strong><u>Justification:</u></strong> This user story is relevant to our proposed solution. While we believe that Focus Mode is a very helpful 
+      feature, it does not need to be activated perpetually. There are situations where it would be more or less advantageous to use 
+      the feature, and this use case allows the meeting host to toggle it at their discretion.
+    </p>
+    <p>
+      <strong><u>Evidence:</u></strong> Whenever the host wants everyone to be part of the discussion, it should be in an orderly 
+      manner because [1] Study reveals that speech and its components like … and turn taking skills are beneficial and effective 
+      for comprehension of any interaction. Speaking skills and turn taking remain very important and useful as long as human 
+      communication is involved.
+    </p>
+    <span id="title">User Story 2: </span> 
+    <p>
+      <strong><u>User Story:</u></strong> As a meeting host, I want to be able to end a meeting participant’s turn when they are 
+      finished talking so that if they forget to press on “finish speaking”, we can move along the queue.
+    </p>
+    <p>
+      <strong><u>Justification:</u></strong> This user story is relevant to our proposed solution. While Focus Mode is meant to flow 
+      in a way that guides a simulated flowing conversation, it requires the meeting participants to be paying attention to work as 
+      fully intended. However, it is unrealistic to believe that meeting participants will always be giving the meeting their full 
+      attention. Therefore, the meeting host’s ability to move to the next participant in the queue gives them more control over the 
+      flow of the conversation.
+    </p>
+    <p>
+      <strong><u>Evidence:</u></strong> (Status Quo) Like many other virtual meeting platforms such as Skype and Microsoft Teams, 
+      the host has the ability to mute or remove participants from the meeting. Therefore, the host should also be allowed to remove 
+      participants from the Focus Queue.
+    </p>
+    <span id="title">User Story 3: </span> 
+    <p>
+      <strong><u>User Story:</u></strong> As a meeting participant, I would like to see the people in the queue so that I know who 
+      is speaking next and how long until I am able to speak.
+    </p>
+    <p>
+      <strong><u>Justification:</u></strong> This user story is relevant to our proposed solution. Meeting participants should be 
+      able to know how soon they will be able to speak so that they can be prepared for their turn.
+    </p>
+    <p>
+      <strong><u>Evidence:</u></strong> (Status Quo) Like any platform that has a queue function, the user will typically be able 
+      to access the queue list.
+    </p>
+    <span id="title">User Story 4: </span>
+    <p>
+      <strong><u>User Story:</u></strong> As a meeting participant, I want to join the speaking queue so that I can contribute to the conversation.
+    </p>
+    <p>
+      <strong><u>Justification:</u></strong> This user story is relevant to our proposed solution. This is the main feature of 
+      Focus Mode, and gives meeting participants a clear way to engage and join the conversation
+    </p>
+    <p>
+      <strong><u>Evidence:</u></strong> (Status Quo) Like any platform that has a queue function, the user should be able to add to the queue.
+    </p>
+    <span id="title">User Story 5: </span>
+    <p>
+      <strong><u>User Story:</u></strong> As a meeting participant, I want to be able to remove myself from the speaking queue so 
+      that I do not have to speak if I do not want to. 
+    </p>
+    <p>
+      <strong><u>Justification:</u></strong> This user story is relevant to our proposed solution. Users may accidentally join the 
+      queue, or join the queue and realize that they no longer want to contribute to the conversation. There needs to be a clear 
+      way for meeting participants to leave the queue.
+    </p>
+    <p>
+      <strong><u>Evidence:</u></strong> (Status Quo) Like any interface that has a queue function, the user should be able to 
+      delete from the queue.
+    </p>
+    <span id="title">User Story 6: </span>
+    <p>
+      <strong><u>User Story:</u></strong> As a meeting participant, I want to be notified before I am up to speak so that I can be 
+      ready to contribute to the conversation.
+    </p>
+    <p>
+      <strong><u>Justification:</u></strong> This user story is relevant to our proposed solution. Users may be distracted and not 
+      be paying attention when their turn is coming up. Having a notification pop up will remind them their turn is coming up and 
+      that they should be prepared to speak soon.
+    </p>
+    <p>
+      <strong><u>Evidence:</u></strong> Like any interface that has pop up notifications, it is effective in grabbing the users 
+      attention. [2] Update notification would be ideal - that is, a notification that grabs the user's attention through both 
+      visual and auditory means, and that is overlayed on top of everything currently on-screen.
+    </p>
+    <span id="title">User Story 7: </span>
+    <p>
+      <strong><u>User Story:</u></strong> As a meeting participant, I want to have a button to end my turn so that the next person 
+      in the queue can speak.
+    </p>
+    <p>
+      <strong><u>Justification:</u></strong> This user story is relevant to our proposed solution. After the user is done 
+      presenting, the user should have an action (such as clicking on end turn) to indicate that their turn is over instead of 
+      waiting for the host to end it for them.
+    </p>
+    <p>
+      <strong><u>Evidence:</u></strong> (Status Quo) Like any platform that has a queue function, the user should be able to delete 
+      from the queue.
+    </p>
+    <span id="title">User Story 8: </span>
+    <p>
+      <strong><u>User Story:</u></strong> As a meeting participant, I want to be able to type in the chat box so that I can 
+      contribute to the conversation even when it is not my turn to speak.
+    </p>
+    <p>
+      <strong><u>Justification:</u></strong> This user story is not relevant to our proposed solution. This feature is already 
+      implemented in Zoom and most other popular video chat platforms. 
+    </p>
+
+    <h4>2. Which user stories are most relevant to your proposed solution and why?</h4>
+    <p>We have decided that user stories 1-7 are most relevant (justification/evidence above)</p>
+    <hr>
+
+
+    <div id="bodytext">
+      <h3>
+        B. Ideation and Preliminary Designs
+      </h3>
+      <br>
+      <h4>
+        Wireframe 1
+      </h4>  
+      <img src="Wireframe1a.png">
+      <img src="Wireframe1b.png">
+      <br>
+      <a href="" download>Click to Download Wireframe 1</a>
+      <br><br>
+      <h4>
+        Wireframe 2
+      </h4>  
+      <img src="Wireframe2a.png">
+      <img src="Wireframe2b.png">
+      <img src="Wireframe2c.png">
+      <br>
+      <a href="" download>Click to Download Wireframe 2</a>
+      <br><br>
+      <h4>
+        Wireframe 3
+      </h4>  
+      <img src="Wireframe3a.png">
+      <img src="Wireframe3b.png">
+      <img src="Wireframe3c.png">
+      <br>
+      <a href="" download>Click to Download Wireframe 3</a>
+      <br><br>
+      <h4>
+        Wireframe 4
+      </h4>  
+      <img src="Wireframe4a.png">
+      <img src="Wireframe4b.png">
+      <img src="Wireframe4c.png">
+      <br>
+      <a href="Focus Mode (Host).xd" download>Click to Download Wireframe 4</a>
+    </div>
+    <hr>
+
+
+
+    <div id="bodytext">
+    <h3>
+      C. Detailed Designs
+    </h3>
+    <p>We chose wireframe 4 as the best design and decided to create our mockup based off of that</p>
+    <br>
+    <h4>
+      Mockup
+    </h4>  
+    <img id="mockup" src="Mockup1.png">
+    <img id="mockup" src="Mockup2.png">
+    <img id="mockup" src="Mockup3.png">
+    <img id="mockup" src="Mockup4.png">
+    <img id="mockup" src="Mockup5.png">
+    <img id="mockup" src="Mockup6.png">
+    <img id="mockup" src="Mockup7Participant.png">
+    <img id="mockup" src="Mockup8Participant.png">
+    <img id="mockup" src="Mockup9Participant.png">
+    <br>
+    <a href="" download>Click to Download Mockup</a>
+    <br><br>
+    <span id="title">Justifications: </span>
+    <strong>List of design features</strong>
+    <ul>
+      <li>
+        Meeting Host:
+        <ul>
+        <li>
+          Start and End Focus Mode Button
+          <ul>
+          <li>
+            Justification: We need a button in a familiar spot where the host can activate focus mode
+          </li>
+          </ul>
+        </li>
+        </ul>
+        <ul>
+          <li>
+            Button to remove a participant from queue (current or later speaker)
+            <ul>
+            <li>
+              Justification: We gave the host the ability to remove participants from the queue or end the current speakers 
+              turn in case someone is away from their computer or holding up the meeting
+            </li>
+            </ul>
+          </li>
+          </ul>
+      </li>
+      <br>
+      <li>
+        Meeting Participant:
+        <ul>
+        <li>
+          Mute/Unmute button is disabled
+          <ul>
+          <li>
+            Justification: Mute button is disabled because the whole purpose of focus mode is interruption free discussion
+          </li>
+          </ul>
+        </li>
+        </ul>
+      </li>
+      <br>
+      <li>
+        Both Host and Participant:
+        <ul>
+        <li>
+          Queue List
+          <ul>
+          <li>
+            Justification: We put the queue list as a pop-out to the right of the Zoom meeting so it would be easily seen, 
+            not interrupt the main meeting interface, and in a familiar position since the chat and participants list both 
+            pop-out to the right also
+          </li>
+          </ul>
+        </li>
+        </ul>
+        <ul>
+          <li>
+            Signifier at the top that you are in Focus Mode
+            <ul>
+            <li>
+              Justification: We added the sentence “Focus Mode Enabled” at the top so that everyone in the meeting has a 
+              signifier and knows they are in focus mode
+            </li>
+            </ul>
+          </li>
+          </ul>
+          <ul>
+            <li>
+              Enter Queue/Leave Queue button
+              <ul>
+              <li>
+                Justification: There needs to be a button to enter the queue so you can speak. We also added a leave queue 
+                button so you can drop from the queue interruption free if you do not need to say anything anymore
+              </li>
+              </ul>
+            </li>
+            </ul>
+            <ul>
+              <li>
+                Confirmation when it is your turn to speak
+                <ul>
+                <li>
+                  Justification: We decided it would be best to have a pop-up when you are next to speak so your attention 
+                  will be focused if you are not looking and you will be prepared to speak without hesitation
+                </li>
+                </ul>
+              </li>
+              </ul>
+      </li>
+    </ul>
+  </div>
+    
+    
+    <hr>
+    <div id="bodytext">
+      <h3>
+        Works Cited
+      </h3>
+      <p>
+        [1] Osuchukwu, Caroline Nonye, et al. <i>Teaching Speaking Skills and the Rule of Turn Taking <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For Effective Communication: A Pragmatic Approach.</i>, vol. 24, no. 12, ser. 3, Dec. 2019, <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pp. 78–83. 3, doi:10.9790/0837-2412037883.
+      </p>
+      <br>
+      <p>
+        [2] Emmanuel FiguerolaEmmanuel Figuerola 19311 silver badge44 bronze badges, et al. <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“Web App - How to Grab the User's Attention No Matter What! (Notifications).” <i>User <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience Stack Exchange</i>, 1 Nov. 1962, <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ux.stackexchange.com/questions/44478/web-app-how-to-grab-the-users-attention-no-m <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;atter-what-notifications.
+      </p>
+    </div>
+    <br><br><br><br><br><br>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
